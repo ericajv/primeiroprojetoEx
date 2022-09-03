@@ -1,0 +1,55 @@
+body/*todo o corpo */
+{
+font-family: 'Open Sans', sans-serif;
+text-align: center; /* centralizando os elementos(texto)*/
+}
+#hero
+{
+  width: 592px;/*a largura de hero*/
+  margin: 0 auto 72px; /*delimitando a margem do hero*/
+}
+#hero img
+{
+margin-bottom: 72px;
+}
+
+h1 /*especificidade do titulo*/
+{
+font-family: 'Inter', sans-serif;
+font-size: 49px;/*tamanho da fonte*/
+line-height: 56px; /*altura da linha*/
+font-weight: normal; /*font-weight define se é negrito ou não*/
+margin-bottom: 32px;
+}
+h1 span
+{
+  font-weight: bold;
+}
+
+span, a /*partes especificas de coloração dirente do body*/
+{
+color: #FF9900;
+}
+p, #footer/*os paragrafos sem especificação*/
+{
+  font-size: 14px;/*tamanho da fonte*/
+  line-height: 28px;/*tamanho da linha*/
+  color: #7D7987;
+}
+#footer a + a
+{
+margin-left: 28px;
+}
+#line
+{width: 568px;
+height: 0px;
+margin: 0 auto 8px;
+
+border: 1px solid orange;
+}
+#balls
+{
+position: fixed;
+bottom: 0px;
+right: 0px;
+}
